@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: #935d8c;
+		background-color: #ffbf00;
 	  /*
 		background-image: linear-gradient(120deg, #43C6AC, #191654);
 		*/
@@ -1645,7 +1645,7 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #ffbf00;
 		color: #FFF;
 	}
 
@@ -2256,7 +2256,7 @@
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #ffbf00;
 	}
 
 	input[type="checkbox"]:focus + label:before,
