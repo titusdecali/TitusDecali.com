@@ -1,123 +1,49 @@
-<!DOCTYPE HTML>
-<!--
-Hello inspector.
-Nice to see you today.
-Titus Decali welcomes you.
--->
-<html>
-	<head>
-		<title>Titus Decali</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+---
+layout: default
+title: A beautiful two-column Jekyll theme
+description: A beautiful, minimal two-column portfolio theme built for Jekyll. Duet makes your work look simply awesome.
+featured_image: /images/social.jpg
+---
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<section class="intro">
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.png" alt="" /></span>
-						<p>Founder, Designer, Front-End Dev, Sci-Fi Writer<br />
-					</header>
+	<div class="wrap">
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li><a href="#intro" class="active">Projects</a></li>
-							<li><a href=https://www.youtube.com/channel/UChmZ6J8uNa-gYGCW0waeDSA target="_blank"> YouTube Channel</a></li>
-							<li><a href=https://medium.com/@titusdecali target="_blank"> Medium Blog</a></li>
-							<li><a href="#cta">Contact</a></li>
-						</ul>
-					</nav>
+		<h1>A beautiful, minimal two-column
+		portfolio theme built for Jekyll.</h1>
+		<p>Duet makes your work look simply awesome.</p>
 
-				<!-- Main -->
-					<div id="main">
+	</div>
 
-						<!-- Project 1 -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Roll (coming soon)</h2>
-										</header>
-										<p>Content Marketing Made Easy</p>
-										<ul class="actions">
-											<li><a href="http://www.roll.app" target="_blank" class="button">Roll.app</a></li>
-										</ul>
-									</div>
-									<span class="image"><img src="images/rolllogo.png" alt="Roll Logo" /></span>
-								</div>
-							</section>
+</section>
 
-							<!-- Project 2 -->
-							<section id="intro" class="main">
-								<div class="spotlight">
-									<div class="content">
-										<header class="major">
-											<h2>Turfmob</h2>
-										</header>
-										<p>New Turf for Your Next Startup</p>
-										<ul class="actions">
-											<li><a href="http://www.turfmob.com" target="_blank" class="button">Turfmob.com</a></li>
-										</ul>
-									</div>
-									<span class="image"><img src="images/Turfmob.png" alt="Turfmob Logo" /></span>
-								</div>
-							</section>
+<section class="portfolio">
 
-						<!-- Get Started -->
-							<section id="cta" class="main special">
-								<header class="major">
-									<h2>Working Together?</h2>
-									<p>Contact me if you are interested in any of the projects I am working on</p>
-								</header>
-								<footer class="major">
-<!--
-									<ul class="actions">
-										<li><a href="generic.html" class="button special">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
--->
-								</footer>
-							</section>
+	<div class="content-wrap portfolio-wrap">
 
+		{% for project in site.projects reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ project.url }}">
+
+				<div class="portfolio-item__image">
+					<img src="{{ project.featured_image  }}" alt="{{ project.title }}">
+				</div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ project.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
 					</div>
+				</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<h2>Contact</h2>
-							<dl class="alt">
+			</a>
 
-								<p><strong>Email &nbsp;&nbsp;&nbsp;</strong>  titusdecali@gmail.com</p>
-							</dl>
-							<ul class="icons">
-								<li><a href="https://www.youtube.com/channel/UChmZ6J8uNa-gYGCW0waeDSA" target="_blank" class="icon fa-youtube alt"><span class="label">Instagram</span></a></li>
-								<li><a href="https://www.facebook.com/titus.decali" target="_blank" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-								<li><a href="https://twitter.com/TitusDecali" target="_blank" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="https://medium.com/@titusdecali" target="_blank" class="icon fa-medium alt"><span class="label">Instagram</span></a></li>
+		</div>
 
+		{% endfor %}
 
-							</ul>
-						</section>
-						<p class="copyright">&copy; Titus Decali</p>
-					</footer>
+	</div>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+</section>
