@@ -60,9 +60,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.8.4)
   jekyll-paginate
   jekyll-sitemap
 
 BUNDLED WITH
-   1.16.1
+   2.0.1
