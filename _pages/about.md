@@ -1,6 +1,6 @@
 ---
-title: Crafting modern experiences
-subtitle: '&amp; Optimizing for business success'
+title: The craft of human experience
+subtitle: Business consulting, design & growth-marketing services
 description: Titus Decali
 featured_image: /images/titusdecali.jpg
 feature_image_width: 400
