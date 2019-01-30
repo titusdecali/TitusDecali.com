@@ -19,6 +19,19 @@
 	width: 50%;
 }
 
+
+@media (max-width: 800px) {
+	.portfolio-item {
+		width: 100%;
+		float: none;
+		display: block;
+	}
+	.portfolio-item img {
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+
 .portfolio-item__link {
 	position: relative;
 	display: block;
