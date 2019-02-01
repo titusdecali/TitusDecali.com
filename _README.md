@@ -29,7 +29,7 @@ Duet comes packed with lots of options to let you customize the theme.
 
 The main things you might need to change here are:
 
-`site: Duet Jekyll Theme` – change this to your website's name
+`site: Titus Decali, designer, front-end dev, and startup consultant` – change this to your website's name
 
 `paginate: 6` – change this to set the number of blog posts on each page
 
