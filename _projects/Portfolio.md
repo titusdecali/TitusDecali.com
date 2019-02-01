@@ -1,5 +1,5 @@
 ---
-title: 'Branding Portfolio'
+title: 'Branding & UI Portfolio'
 subtitle: 'A sample of my clients'
 date: 2018-10-30 00:00:00
 description: Portfolio Download
