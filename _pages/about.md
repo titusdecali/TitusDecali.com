@@ -1,5 +1,5 @@
 ---
-title: Crafting human experiences from Seoul S. Korea
+title: Crafting human experiences <br/> from Seoul S. Korea
 subtitle: Business consulting, design & growth-marketing services
 description: Titus Decali
 featured_image: /images/titusdecali.jpg
