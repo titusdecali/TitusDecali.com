@@ -1,6 +1,6 @@
 ---
 title: 'Branding & UI Portfolio'
-subtitle: 'A sample of my clients'
+subtitle: 'A detailed sample of my work'
 date: 2018-10-30 00:00:00
 description: Portfolio Download
 featured_image: '/images/portfolio.png'
