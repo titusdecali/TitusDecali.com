@@ -16,7 +16,7 @@ I offer a combination of design, development & consultation services to startups
 * Branding & identity
 * UI/UX for web & mobile apps
 * App prototyping
-* Video storyboarding 
+* Video storyboarding
 * Video animation, script writing & voiceover management
 * Copywriting
 
