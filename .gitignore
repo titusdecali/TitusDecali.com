@@ -1,2 +1,10 @@
 
 *.codekit3
+_includes/.DS_Store
+_pages/.DS_Store
+_projects/.DS_Store
+_sass/.DS_Store
+_sass/_includes/.DS_Store
+css/.DS_Store
+js/.DS_Store
+js/plugins/.DS_Store
