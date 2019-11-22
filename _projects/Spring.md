@@ -1,8 +1,9 @@
 ---
-title: 'Spring.app'
+title: Spring.app
+date: 2019-06-27 00:00:00 Z
 subtitle: '"Click a few buttons, get new customers"'
-date: 2019-06-27 00:00:00
 description: Spring.app project
-featured_image: '/images/project_spring.png'
-link: 'https://spring.app'
+featured_image: "/images/project_spring.png"
+link: https://spring.app
 ---
+
