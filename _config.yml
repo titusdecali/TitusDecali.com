@@ -17,25 +17,25 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-  values:
-    layout: default
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-- scope:
-    path: ''
-    type: projects
-  values:
-    layout: project
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
 site: Titus Decali
 markdown: kramdown
 kramdown:
@@ -44,8 +44,8 @@ kramdown:
 sass:
   style: compressed
 plugins:
-- jekyll-paginate
-- jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-sitemap
 paginate: 6
 paginate_path: "/blog/page:num/"
 gallery_types:
