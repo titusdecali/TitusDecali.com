@@ -6,4 +6,3 @@ description: for Vue, React, Jekyll, Gatsby, HTML, CSS, VSCode
 featured_image: "/images/project_frontendsource.gif"
 link: https://frontendsource.com
 ---
-
