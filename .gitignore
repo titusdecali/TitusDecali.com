@@ -8,3 +8,7 @@ _sass/_includes/.DS_Store
 css/.DS_Store
 js/.DS_Store
 js/plugins/.DS_Store
+.DS_Store
+
+.vercel
+.DS_Store
