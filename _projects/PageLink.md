@@ -1,0 +1,8 @@
+---
+title: PageLink
+date: 2020-06-27 00:00:00 Z
+subtitle: '"Easily manage & update all docs on your site"'
+description: Micro CMS
+featured_image: "/images/project_pagelink.jpg"
+link: https://pagelink.io/
+---
