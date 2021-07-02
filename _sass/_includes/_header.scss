@@ -91,11 +91,16 @@
   width: 24px;
   height: 20px;
   margin-left: 8px;
+  right: 20px;
+
+  @media (max-width: 767px) {
+    right: 0px;
+  }
 
   span,
   span:before,
   span:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 8px;
     left: 0;
@@ -115,7 +120,6 @@
 }
 
 .menu--open .menu__toggle__icon {
-
   span:before,
   span:after {
     background: $overlay-text-color !important;
@@ -185,6 +189,8 @@
 }
 
 .menu__list__item {
+  text-align: center;
+  margin: 15px 0;
   @include mq(tabletl) {
     display: inline-block;
     margin-left: 20px;
