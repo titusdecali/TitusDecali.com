@@ -2,7 +2,6 @@ basic_settings:
   site_title: Titus Decali
   favicon_image: /images/favicon.png
 
-
 header_settings:
   logo_image: /images/Decali_logo.svg
   logo_width: 300
