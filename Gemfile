@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '3.3.4'
+ruby '3.3.0'
 
 group :jekyll_plugins do
   gem 'jekyll', '~> 4.3.0'
