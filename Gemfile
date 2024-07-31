@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '3.3.0'
-
 group :jekyll_plugins do
   gem 'jekyll', '~> 4.2.0'
   gem 'jekyll-paginate'
@@ -9,3 +7,6 @@ group :jekyll_plugins do
 end
 
 gem 'webrick'
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
