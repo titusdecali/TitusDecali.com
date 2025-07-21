@@ -1,8 +1,20 @@
 # Duet by JekyllThemes.io – Instructions
 
-If you have any questions or feedback about the theme, don't hesitate to reach out to hello@jekyllthemes.io for 1-to-1 support direct from the developers.
+Install new template:
+
+X-   (Optional): touch Gemfile (if no gemfile exists)  - sudo gem install bundler jekyll
+
+- Sudo gem install jekyll
+- bundle install (sudo gem install bundler, if not already installed)
+
+**Start Server (also builds project)**
+
+bundle exec jekyll serve
+
+localhost:4000
 
 ---
+
 
 ## Getting started
 
