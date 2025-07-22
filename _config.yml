@@ -43,6 +43,8 @@ kramdown:
   syntax_highlighter: rouge
 sass:
   style: compressed
+  quiet_deps: true
+  sourcemap: never
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
